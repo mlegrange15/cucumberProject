@@ -1,0 +1,15 @@
+{
+  "name": "cucumberProject",
+  "version": "1.0.0",
+  "description": "cucumber challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "repository": "https://github.com/mlegrange15/cucumberProject.git",
+  "author": "Michael LeGrange <mlegrange15@att.net>",
+  "license": "MIT",
+  "dependencies": {
+    "cucumber": "^5.0.2"
+  }
+}

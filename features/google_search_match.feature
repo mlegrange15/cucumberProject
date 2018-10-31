@@ -13,5 +13,4 @@ Feature: Do websites match my search terms on Google?
   Scenario: Unsuccessful search and no website matches found
     When I add a "jdfjdsnfjdsfddbbbbdduigg" term to the search field
     And click search
-    And get no results displayed
-    Then it should be communicated that search has no links to matching websites
+    Then I get a message there were no matching websites found

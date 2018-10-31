@@ -1,8 +1,5 @@
-// const assert = require("assert");
-// const { expect } = require("chai");
 const webdriver = require("selenium-webdriver"),
-  By = webdriver.By,
-  until = webdriver.until;
+  By = webdriver.By;
 const { Given, When, Then } = require("cucumber");
 
 const driver = new webdriver.Builder()
@@ -27,7 +24,7 @@ When("click search", function() {
 Then(
   "I should be displayed with results that have links to matching websites",
   function() {
-    return driver.findElement(By.id("resultStats"));
+    return driver.findElement(By.css("div.r > a[href]" ));
   }
 );
 

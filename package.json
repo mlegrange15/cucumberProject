@@ -10,6 +10,9 @@
   "author": "Michael LeGrange <mlegrange15@att.net>",
   "license": "MIT",
   "dependencies": {
-    "cucumber": "^5.0.2"
+    "chai": "^4.2.0",
+    "cucumber": "^5.0.2",
+    "request": "^2.88.0",
+    "selenium-webdriver": "^4.0.0-alpha.1"
   }
 }
